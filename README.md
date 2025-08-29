@@ -30,3 +30,8 @@ My goal is to complete React as efficiently as possible, without rushing through
 ## 📌 Why This Repo?
 
 This isn’t just a sandbox—it’s a public log of my growth. I’ll be sharing updates on GitHub and LinkedIn to connect with other devs, showcase progress, and stay accountable.
+
+projects (i update it as i make more in react learning journey) :-
+
+1. CounterProject - https://react-course-xi-tan.vercel.app 
+2. BgChanger - https://react-course-7m94.vercel.app 
