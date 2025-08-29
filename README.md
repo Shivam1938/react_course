@@ -35,3 +35,4 @@ projects (i update it as i make more in react learning journey) :-
 
 1. CounterProject - https://react-course-xi-tan.vercel.app 
 2. BgChanger - https://react-course-7m94.vercel.app 
+3. PasswordGenerator - https://react-course-gpeo.vercel.app/
