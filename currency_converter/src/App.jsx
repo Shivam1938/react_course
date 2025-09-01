@@ -5,10 +5,10 @@ function App() {
   
 
   return (
-    <>
+    <div>
       < CurrencyConverter/>
       
-    </>
+    </div>
   )
 }
 

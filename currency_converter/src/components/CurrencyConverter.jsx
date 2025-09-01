@@ -2,21 +2,25 @@ import Form from "./Form.jsx";
 
 function CurrencyConverter() {
   return (
-    <div className="w-screen h-screen  bg-indigo-900 flex justify-center items-center ">
-      <div className="w-95 m-3  h-95 border border-white/15  bg-white/5 backdrop-blur-mdshadow-lg rounded-xl p-2 text-white md:w-130 md:p-6 md:py-4 md:h-98 ">
+    <div className="w-full h-screen bg-indigo-900 flex justify-center items-center ">
+      <div className=" m-3 p-3 border border-white/15  bg-white/5 backdrop-blur-mdshadow-lg rounded-xl text-white sm:h-84 sm:w-120">
         {/* from */}
+        <div className="w-full mt-2"></div>
         <Form formType="From" />
 
         {/* swap */}
-        <div></div>
+        <div className="bg-blue-600 inline py-1 px-3 rounded-lg position absolute left-1/2 -translate-x-1/2 -translate-y-1/2 hover:bg-blue-700 mt-2">
+          <button>Swap</button>
+        </div>
 
         {/* to */}
-        <Form formType="To"/>
+        <div className="w-full mt-4"></div>
+        <Form formType="To" />
 
         {/* convert */}
-        <div className="flex justify-center">
-          <button className="bg-blue-500 rounded-lg px-28 py-3 m-4 shadow-lg hover:bg-blue-700 font-[consolas] md:px-34 ">
-            Convert
+        <div>
+          <button className=" border-1 border-white/10 rounded-lg w-full p-2 mt-4 pb-4 bg-blue-600 hover:bg-blue-700 font-bold">
+            Convert Currency
           </button>
         </div>
       </div>
