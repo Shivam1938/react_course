@@ -10,12 +10,12 @@ function Form({ formType = "From" }) {
           <input
             type="number"
             placeholder="0"
-            className=" w-[58%] m-2 px-1 outline-none font-[consolas]"
+            className=" w-[58%] m-2 px-1 outline-none font-[consolas]  sm:w-[68%]"
           />
           <select
             name=""
             id=""
-            className="border-1 rounded-lg m-2 mx-[5%] border-white/10 px-2 bg-gray-400/20"
+            className="border-1 rounded-lg m-2 mx-[5%]  border-white/10 px-2 bg-gray-400/20 sm:px-4 sm:ml-[6%] sm:mr-0"
           >
             <option value="usd" className="font-bold ">
               USD
