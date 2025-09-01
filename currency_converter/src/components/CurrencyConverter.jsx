@@ -1,68 +1,21 @@
+import Form from "./Form.jsx";
+
 function CurrencyConverter() {
   return (
-    <div className="flex items-center justify-center h-screen bg-indigo-900">
-      <div
-        className="bg-white/100 backdrop-blur-lg
-       border border-white/20  shadow-lg w-150 h-98 mx-auto p-4 rounded-xl"
-      >
+    <div className="w-screen h-screen  bg-indigo-900 flex justify-center items-center ">
+      <div className="w-95 m-3  h-95 border border-white/15  bg-white/5 backdrop-blur-mdshadow-lg rounded-xl p-2 text-white md:w-130 md:p-6 md:py-4 md:h-98 ">
         {/* from */}
-        <div className=" flex justify-around m-2 rounded-xl border-1">
-          <div>
-            <h1 className="mx-2 my-5 p-0 mb-2">From</h1>
-            <input
-              type="text"
-              placeholder="Enter Amount"
-              className=" w-100 h-18 mx-auto p-2 rounded-xl m-2 outline-none "
-            />
-          </div>
-          <div className=" p-4 w-1/4">
-            <h1 className="mb-4">Currency Type</h1>
-            <select
-              name="currencyswitcher"
-              id="switcher"
-              className="w-25 h-12 mt-4 rounded-xl border-1 bg-gray-200 "
-            >
-              <option value="usd" className="text-center">
-                USD
-              </option>
-            </select>
-          </div>
-        </div>
+        <Form formType="From" />
 
         {/* swap */}
-        <div className="absolute  mx-59 top-40">
-          <button className="bg-blue-500 hover:bg-sky-500 rounded">
-            <span className="m-6">Swap</span>
-          </button>
-        </div>
+        <div></div>
 
         {/* to */}
-        <div className=" flex justify-around m-2 rounded-xl border-1">
-          <div>
-            <h1 className="mx-2 my-5 p-0 mb-2">To</h1>
-            <input
-              type="text"
-              placeholder="Enter Amount"
-              className=" w-100 h-18 mx-auto p-2 rounded-xl m-2 outline-none"
-            />
-          </div>
-          <div className=" p-4 w-1/4 ">
-            <h1 className="mb-4">Currency Type</h1>
-            <select
-              name="currencyswitcher"
-              id="switcher"
-              className="w-25 h-12 mt-4 rounded-xl border-1 bg-gray-200 "
-            >
-              <option value="inr" className="text-center">
-                INR
-              </option>
-            </select>
-          </div>
-        </div>
+        <Form formType="To"/>
 
-        {/* convert button */}
-        <div>
-          <button className="bg-blue-500 w-136 mx-2 h-12 rounded-xl">
+        {/* convert */}
+        <div className="flex justify-center">
+          <button className="bg-blue-500 rounded-lg px-28 py-3 m-4 shadow-lg hover:bg-blue-700 font-[consolas] md:px-34 ">
             Convert
           </button>
         </div>

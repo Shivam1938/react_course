@@ -1,3 +1,4 @@
+// import CurrencyConverter from "./components/CurrencyConverter.jsx"
 import CurrencyConverter from "./components/CurrencyConverter.jsx"
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      <CurrencyConverter/>
+      < CurrencyConverter/>
       
     </>
   )
